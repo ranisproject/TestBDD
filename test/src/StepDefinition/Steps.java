@@ -1,4 +1,4 @@
-package StepDefinition;
+//package StepDefinition;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -12,7 +12,7 @@ public class Steps {
 
     @Given("Launch Chrome")
     public void launchChrome() {
-        System.setProperty("webdriver.chrome.driver","/Users/sukanya/IdeaProjects/BDDTest/src/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/Users/sukanya/IdeaProjects/TestBDD/test/src/chromedriver");
         driver= new ChromeDriver();
     }
     @When("Click on One way")
